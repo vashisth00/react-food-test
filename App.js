@@ -1,15 +1,11 @@
 import { View, Text } from "react-native";
+import HeaderTabs from "./components/HeaderTabs";
+import Home from "./screens/home";
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal bb gg Expo</Text>
+    <View>
+      <Home />
     </View>
   );
 }
